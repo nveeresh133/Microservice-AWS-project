@@ -9,6 +9,7 @@ pipeline {
                 sleep 10    
                 }
             }
+        }
         
         stage('View k8s components') {
             steps {
@@ -17,4 +18,5 @@ pipeline {
             }
         }
     }
+}
 }
